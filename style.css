@@ -1,0 +1,50 @@
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: url(img/background.jpg);
+  background-size: cover;
+}
+
+.keys {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30rem;
+}
+
+.key {
+  transition: all 0.1s;
+}
+
+.key kbd{
+  display: block;
+  border: 0.15rem solid black;
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 600;
+  width: 7rem;
+  height: 7rem;
+  color: white;
+
+}
+
+.key span {
+  display: block;
+  font-size: 2rem;
+  text-align: center;
+  color: #F7B32B;
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: #F7B32B;
+  box-shadow: 0 0 10px #F7B32B;
+}
